@@ -1,0 +1,38 @@
+{
+  "name": "tep",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RichardGentleman/tep.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RichardGentleman/tep/issues"
+  },
+  "homepage": "https://github.com/RichardGentleman/tep#readme",
+  "dependencies": {
+    "lodash": "^4.17.20",
+    "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.1",
+    "css-loader": "^5.0.1",
+    "postcss-import": "^14.0.0",
+    "postcss-loader": "^4.1.0",
+    "postcss-mixins": "^7.0.2",
+    "postcss-nested": "^5.0.3",
+    "postcss-simple-vars": "^6.0.2",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.15.0",
+    "webpack-cli": "^4.3.1",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
