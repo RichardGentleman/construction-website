@@ -10,6 +10,10 @@
     max-width: 976px;
   }
 
+  &--attribute {
+    float: right;
+  }
+
   .wrapper {
     padding-left: 0;
     padding-right: 0;
