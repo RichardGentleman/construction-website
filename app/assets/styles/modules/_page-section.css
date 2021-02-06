@@ -5,4 +5,9 @@
     padding: 4.5rem 0;
   }
 
+  &--orange {
+    background-color: $mainOrange;
+    color: #FFF;
+  }
+
 }
