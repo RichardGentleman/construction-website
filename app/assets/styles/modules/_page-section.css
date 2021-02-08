@@ -5,9 +5,32 @@
     padding: 4.5rem 0;
   }
 
+  &--no-b-padding-until-medium {
+      padding-bottom: 0;
+
+      @mixin atMedium {
+        padding-bottom: 4.5rem;
+      }
+    }
+
+    &--no-b-padding-until-large {
+      padding-bottom: 0;
+
+      @mixin atLarge {
+        padding-bottom: 4.5rem;
+      }
+    }
+
   &--orange {
     background-color: $mainOrange;
     color: #FFF;
+  }
+
+  &--testimonials {
+    background: url("assets/images/Photo_by_Rhond_K_Native_Florida_Folk_Artist_on_Unsplash.jpg") top center no-repeat;
+    background-size: cover;
+    color: #5d5c5c;
+
   }
 
 }
