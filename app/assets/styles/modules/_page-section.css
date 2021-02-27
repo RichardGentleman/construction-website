@@ -31,10 +31,10 @@
     background-size: cover;
     color: #5d5c5c;
 
-    padding: 1.2rem 0 0 0;
+    padding: 1.2rem 0 3px 0;
 
     @mixin atMedium {
-      padding: 4.5rem 0 0 0;
+      padding: 4.5rem 0 4.5rem 0;
     }
 
   }

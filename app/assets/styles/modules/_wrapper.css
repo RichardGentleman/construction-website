@@ -35,7 +35,71 @@
   }
 
   &--attribute {
+    font-size: .8rem;
+    text-align: center;
+
+    @mixin atMedium {
+      float: right;
+      padding-right: 30px;
+    }
+  }
+
+  &--attribute-banner {
+    position: relative;
+  }
+
+  &--attribute-overview {
+    color: white;
+    position: absolute;
+    margin-top: -25px;
+    text-align: center;
+    width: 100%;
+    padding: 0 auto;
+    font-size: .6rem;
+
+      @mixin atMedium {
+      width: auto;
+      right: 3%;
+      font-size: .8rem;
+      }
+    }
+
+  &--attribute-testimonials {
+    color: $mainBlue;
+    font-size: .8rem;
+  }
+
+  &--attribute-testimonials-picture {
+
+    color: white;
+    position: relative;
+    text-align: center;
+    font-size: .8rem;
+
+    @mixin atMedium {
+      color: $mainOrange;
+    position: relative;
     float: right;
+    padding-right: 30px;
+    padding-top: 10px;
+    }
+  }
+
+  &--attribute-picture {
+    position: absolute;
+    font-size: .8rem;
+    width: 100%;
+    text-align: center;
+    padding: 0 auto;
+    bottom: 0;
+    color: $mainOrange;
+
+    @mixin atMedium {
+      width: auto;
+      right: 30px;
+      color: $mainBlue;
+    }
+
   }
 
   .wrapper {

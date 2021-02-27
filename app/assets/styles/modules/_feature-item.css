@@ -12,10 +12,12 @@
   width: 14%;
   height: auto;
 
+
     @mixin atSmall {
       position: absolute;
       left: 0;
     }
+
   }
 
   &__title {
